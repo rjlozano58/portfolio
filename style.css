@@ -23,7 +23,9 @@ h1 {
   border-bottom:1px solid white;
 }
 .me-n-az{
-  max-width:90%;
+  max-height:50vh;
   display:block;
   margin:20px auto;
+}
+.intro-text{
 }
