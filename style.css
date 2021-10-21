@@ -2,8 +2,8 @@
 *{
   margin:0;
 }
-h1 {
-  color: green;
+body{
+  background:URL('https://i.insider.com/5dfab6ce855cc20c514e79f6?width=1000&format=jpeg&auto=webp');
 }
 .nav{
   display:flex;
@@ -26,6 +26,19 @@ h1 {
   max-height:50vh;
   display:block;
   margin:20px auto;
+  border-radius:10px;
+}
+.me-n-az:hover{
+  box-shadow:0 0 0 1px white;
 }
 .intro-text{
+  display:block;
+  margin:0 auto;
+  width:80vw;
+  border-radius:20px;
+  padding:10px;
+  background:grey;
+  font-family:helvetica;
+  font-weight:300;
+  color:white;
 }
