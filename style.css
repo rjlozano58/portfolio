@@ -5,9 +5,6 @@
 body{
   background:URL('https://i.insider.com/5dfab6ce855cc20c514e79f6?width=1000&format=jpeg&auto=webp');
 }
-.logo{
-  width:100px;
-}
 .nav{
   display:flex;
   flex-direction:row;
@@ -24,7 +21,7 @@ body{
   text-decoration:none;
 }
 .link:hover{
-  border-bottom:1px solid white;
+  border-bottom:2px solid white;
 }
 .me-n-az{
   max-height:50vh;
@@ -33,7 +30,7 @@ body{
   border-radius:10px;
 }
 .me-n-az:hover{
-  box-shadow:0 0 0 1px white;
+//idk ill come back to this.
 }
 .intro-text{
   display:block;
@@ -45,4 +42,10 @@ body{
   font-family:helvetica;
   font-weight:300;
   color:white;
+  transition:0.3s;
+}
+.intro-text:hover{
+  box-shadow:2px 2px 8px black;
+  background:white;
+  color:black;
 }
