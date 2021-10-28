@@ -66,7 +66,9 @@ body{
 }
 .project-box{
   width:30vw;
+  min-width:100px;
   height:30vw;
+  
   background:blue;
   margin:5px;
   padding:20px;
@@ -77,12 +79,13 @@ body{
   margin:auto;
 }
 .project-description{
-  height:100%;
+  min-height:10%;
+  max-height:25%;
   color:white;
   font-family:helvetica;
   font-weight:300;
   min-font-size:10px;
-  overflow: ellipsis;
+  overflow: scroll;
   word-wrap: break-word;
 }
 .subtitle{
@@ -100,4 +103,15 @@ text-align:center;
   font-family:helvetica;
   font-weight:400px;
   font-size:50px;
+}
+.try-project{
+  color:white;
+  font-family:helvetica;
+  font-weight:300;
+  padding:10px;
+  background:blue;
+  border-radius:20px;
+  border: 2px solid lightblue;
+  display:block;
+  margin:10px auto;
 }
