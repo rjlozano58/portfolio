@@ -69,11 +69,26 @@ body{
   height:30vw;
   background:blue;
   margin:5px;
+  padding:20px;
+}
+.project-img{
+  max-width:100%;
+  display:block;
+  margin:auto;
+}
+.project-description{
+  height:100%;
+  color:white;
+  font-family:helvetica;
+  font-weight:300;
+  min-font-size:10px;
+  overflow: ellipsis;
+  word-wrap: break-word;
 }
 .subtitle{
   height:20vh;
   width:100%;
-  background:white;
+/*   background:white; */
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -81,6 +96,7 @@ body{
 }
 .subtitle-text{
 text-align:center;
+  color:white;
   font-family:helvetica;
   font-weight:400px;
   font-size:50px;
