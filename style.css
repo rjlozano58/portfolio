@@ -70,3 +70,18 @@ body{
   background:blue;
   margin:5px;
 }
+.subtitle{
+  height:20vh;
+  width:100%;
+  background:white;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin:10px 0 0 0 ;
+}
+.subtitle-text{
+text-align:center;
+  font-family:helvetica;
+  font-weight:400px;
+  font-size:50px;
+}
