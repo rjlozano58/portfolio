@@ -131,3 +131,27 @@ text-align:center;
   margin:10px auto;
   cursor:pointer;
 }
+.social-container{
+  display:block;
+  margin: 0 auto;
+  background:green;
+  max-height:30vh;
+  height:auto;
+  width:90vw;
+  padding:20px;
+  display:flex;
+  justify-content:center;
+}
+img.social-img{
+  width:30%;
+  background:blue;
+}
+.social-text{
+  background:red;
+  width:60%;
+  display:flex;
+  flex-direction:cente
+}
+.center{
+  text-align:center;
+}
