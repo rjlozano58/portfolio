@@ -142,16 +142,21 @@ text-align:center;
   display:flex;
   justify-content:center;
 }
-img.social-img{
-  width:30%;
+.social-img{
+  width:300px;
   background:blue;
 }
 .social-text{
   background:red;
   width:60%;
   display:flex;
-  flex-direction:cente
+  flex-direction:column;
+  justify-content:center;
 }
 .center{
   text-align:center;
+  font-size:30px;
+  font-family:helvetica;
+  font-weight:300;
+  overflow:scroll;
 }
